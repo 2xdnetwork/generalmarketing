@@ -1,6 +1,7 @@
 <?php //Settings: ********************************************************
 $path = $app->request->get("api_path");
 $pathToExtend = $app->request->get('api_path_to_extend') . '.layouts.home';
+$meta = 'Privacy Policy | '. $app->request->get('api_name');
 //Settings: ************************************************************ ?> 
 
 @extends($pathToExtend)

@@ -1,7 +1,8 @@
-<?php //Settings: ********************************************************
+<?php //Settings: ****************************************************************
 $path = $app->request->get("api_path");
 $pathToExtend = $app->request->get('api_path_to_extend') . '.layouts.home';
-//Settings: ************************************************************ ?> 
+$meta = $app->request->get('api_name'). ' | All Your Marketing Needs In One Place';
+//Settings: ******************************************************************* ?> 
 
 @extends($pathToExtend)
 
