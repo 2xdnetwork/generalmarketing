@@ -2,6 +2,7 @@
 $path = $app->request->get("api_path");
 $pathToExtend = $app->request->get('api_path_to_extend') . '.layouts.home';
 $meta = 'Social Media Management | '. $app->request->get('api_name');
+$description = 'We have full integrated reporting that will allow you to see the organic growth and the impact of our social media marketing efforts across multiple platforms.';
 //Settings: ************************************************************ ?> 
 
 @extends($pathToExtend)

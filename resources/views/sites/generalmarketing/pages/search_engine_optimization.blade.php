@@ -2,6 +2,7 @@
 $path = $app->request->get("api_path");
 $pathToExtend = $app->request->get('api_path_to_extend') . '.layouts.home';
 $meta = 'SEO | '. $app->request->get('api_name');
+$description = 'We take a very holistic approach to our SEO service. You have found the right digital advertising company to help your business climb to the top of search engines.';
 //Settings: ************************************************************ ?> 
 
 @extends($pathToExtend)

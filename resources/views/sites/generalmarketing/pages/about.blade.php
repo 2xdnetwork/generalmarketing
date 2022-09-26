@@ -2,6 +2,7 @@
 $path = $app->request->get("api_path");
 $pathToExtend = $app->request->get('api_path_to_extend') . '.layouts.home';
 $meta = 'About Us | ' . $app->request->get('api_name');
+$description = 'We help you build and grow your business. Finding a team that you can trust to deliver exceptional work every time and be available when you call is a hard and frustrating task.';
 //Settings: ************************************************************ ?> 
 
 @extends($pathToExtend)

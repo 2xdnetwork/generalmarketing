@@ -2,6 +2,7 @@
 $path = $app->request->get("api_path");
 $pathToExtend = $app->request->get('api_path_to_extend') . '.layouts.home';
 $meta = 'Website Development | '. $app->request->get('api_name');
+$description = 'If you are considering a website redesign or launching a new website, you owe it to yourself to see what an advanced web development company can do for you.';
 //Settings: ************************************************************ ?> 
 
 @extends($pathToExtend)

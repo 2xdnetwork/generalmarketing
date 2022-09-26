@@ -2,6 +2,7 @@
 $path = $app->request->get("api_path");
 $pathToExtend = $app->request->get('api_path_to_extend') . '.layouts.home';
 $meta = 'Brand Strategy | ' . $app->request->get('api_name');
+$description = 'Your brand is everything your customers think you are, everything they associate with you, and everything they expect when they interact with you. ';
 //Settings: ************************************************************ ?> 
 
 @extends($pathToExtend)
