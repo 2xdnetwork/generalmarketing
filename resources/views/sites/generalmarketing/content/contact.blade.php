@@ -68,7 +68,7 @@
 
 
       <div class="it-cta-area law-cta-area about-me-cta-area pt-120 pb-85 theme-bg"
-         data-background="assets/img/cta/sv-detials-cta-bg.png">
+         data-background="{{$app->request->get('api_shortname')}}/assets/img/cta/sv-detials-cta-bg.png">
          <div class="container">
             <div class="row align-items-center">
                <div class="col-xl-6" >

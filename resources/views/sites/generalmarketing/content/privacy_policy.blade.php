@@ -1,4 +1,4 @@
-<div class="breadcrumb__area theme-bg pt-120 pb-120" data-background="assets/img/breadcrumb/breadcrumb-bg.png">
+<div class="breadcrumb__area theme-bg pt-120 pb-120" data-background="{{$app->request->get('api_shortname')}}/img/hero/breadcrumb-bg.png">
          <div class="container">
             <div class="row">
                <div class="col-xxl-12">
