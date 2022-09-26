@@ -42,7 +42,7 @@ body{
 <div id="main">
     	<div class="fof">
         <div class="logo">
-            <a href="/"><img src="img/logo/{{$app->request->get('api_shortname')}}-logo.png" alt=""></a>
+            <a href="/"> <img src="{{$app->request->get('api_shortname')}}/img/logo/{{$app->request->get('api_shortname')}}-logo.png" alt=""></a>
         </div><br>
         <h1>Oops, page does not exist</h1>
     	</div>

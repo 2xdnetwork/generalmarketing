@@ -39,7 +39,7 @@
                     </div>
                     <div class="col-lg-7 wow tpfadeUp" data-tilt="" data-tilt-perspective="2000" data-wow-delay=".3s">
                         <div class="tp-da-hero-img text-end pr-30">
-                            <img src="img/hero/da-hero-img.jpg" alt="">
+                            <img src="{{$app->request->get('api_shortname')}}/img/hero/da-hero-img.jpg" alt="">
 
                         </div>
                         <div class="da-hero-black-box bg-black float-end">
@@ -87,7 +87,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 wow tpfadeUp" data-wow-delay=".3s">
                         <div class="da-about-img mb-30" data-tilt="" data-tilt-perspective="2000">
-                            <img src="img/about/da-about-1.jpg" alt="">
+                            <img src="{{$app->request->get('api_shortname')}}/img/about/da-about-1.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 wow tpfadeUp" data-wow-delay=".5s">
@@ -237,7 +237,7 @@
 
         <div class="da-cta-section d-none d-lg-block wow tpfadeUp" data-wow-delay=".3s">
             <div class="container">
-                <div class="da-cta-area pt-45 pb-45" data-background="img/cta/da-pattern.png">
+                <div class="da-cta-area pt-45 pb-45" data-background="{{$app->request->get('api_shortname')}}/img/cta/da-pattern.png">
                     <div class="row">
                         <div class="col-lg-8 col-12">
                             <div class="da-cta-info ml-130">
@@ -262,7 +262,7 @@
             </div>
         </div>
 
-        <div class="da-testimonial bg-black pt-120 pb-120 wow tpfadeUp" data-wow-delay=".3s" data-background="img/testimonial/da-testi-dot.png">
+        <div class="da-testimonial bg-black pt-120 pb-120 wow tpfadeUp" data-wow-delay=".3s" data-background="{{$app->request->get('api_shortname')}}/img/testimonial/da-testi-dot.png">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12">
@@ -283,7 +283,7 @@
                                             <div class="row">
                                                 <div class="col-12 col-md-3">
                                                     <div class="da-testi-avata p-relative">
-                                                        <img src="img/testimonial/testi-lg-1.png" alt="">
+                                                        <img src="{{$app->request->get('api_shortname')}}/img/testimonial/testi-lg-1.png" alt="">
                                                         <div class="da-testi-icon"><i class="fas fa-quote-left"></i>
                                                         </div>
                                                     </div>
@@ -316,7 +316,7 @@
                                             <div class="row">
                                                 <div class="col-12 col-md-3">
                                                     <div class="da-testi-avata p-relative">
-                                                        <img src="img/testimonial/testi-lg-2.png" alt="">
+                                                        <img src="{{$app->request->get('api_shortname')}}/img/testimonial/testi-lg-2.png" alt="">
                                                         <div class="da-testi-icon"><i class="fas fa-quote-left"></i>
                                                         </div>
                                                     </div>
@@ -348,7 +348,7 @@
                                             <div class="row">
                                                 <div class="col-12 col-md-3">
                                                     <div class="da-testi-avata p-relative">
-                                                        <img src="img/testimonial/testi-lg-3.png" alt="">
+                                                        <img src="{{$app->request->get('api_shortname')}}/img/testimonial/testi-lg-3.png" alt="">
                                                         <div class="da-testi-icon"><i class="fas fa-quote-left"></i>
                                                         </div>
                                                     </div>
@@ -420,11 +420,11 @@
 
          </div>
          <div class="red-nots">
-            <img src="img/cta/point-bg.png" alt="">
+            <img src="{{$app->request->get('api_shortname')}}/img/cta/point-bg.png" alt="">
          </div>
          <div class="thumb-animation d-none d-lg-block">
             <div class="like-thumb">
-               <img src="img/cta/like-thumb.jpg" alt="">
+               <img src="{{$app->request->get('api_shortname')}}/img/cta/like-thumb.jpg" alt="">
             </div>
             <div class="like-thumb-border">
 

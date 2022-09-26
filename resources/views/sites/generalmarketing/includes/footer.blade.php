@@ -39,7 +39,7 @@
                                     Get In Touch
                                 </h3>
                                 <div class="tp-footer-cta d-flex align-items-center mb-30">
-                                    <span class="call-icon"><img src="img/footer/footer-rbg-call.png"
+                                    <span class="call-icon"> <img src="{{$app->request->get('api_shortname')}}/img/footer/footer-rbg-call.png"
                                             alt=""></span>
                                     <span>
                                          <span class="d-block mb-0">Mon-Fri: 7am-5pm</span>
@@ -47,7 +47,7 @@
                                     </span>
                                 </div>
                                 <div class="tp-footer-cta d-flex align-items-center mb-30">
-                                    <span class="call-icon"><img src="img/footer/message-rgb-ison.png"
+                                    <span class="call-icon"> <img src="{{$app->request->get('api_shortname')}}/img/footer/message-rgb-ison.png"
                                             alt=""></span>
                                     <span>
                                         <span class="d-block mb-0">{{$app->request->get('api_address')}}</span>

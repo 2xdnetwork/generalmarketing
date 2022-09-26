@@ -1,7 +1,7 @@
 <div class="body-overlay"></div>
    <!-- off canvas area  -->
    <main>
-   <div class="breadcrumb__area theme-bg pt-120 pb-120" data-background="img/hero/breadcrumb-bg.png">
+   <div class="breadcrumb__area theme-bg pt-120 pb-120" data-background="{{$app->request->get('api_shortname')}}/img/hero/breadcrumb-bg.png">
          <div class="container">
             <div class="row">
                <div class="col-xxl-12">
@@ -23,7 +23,7 @@
             <div class="row align-items-md-center">
                <div class="col-xl-6 wow tpfadeUp">
                   <div class="about-page-about-img mb-30">
-                     <img src="img/about/ab-about-img.jpg" alt="">
+                     <img src="{{$app->request->get('api_shortname')}}/img/about/ab-about-img.jpg" alt="">
                   </div>
                </div>
                <div class="col-xl-6 wow tpfadeUp">
@@ -52,7 +52,7 @@
       </div>
 
       <div class="tp-sv-page-feature-area black-bg p-relative pt-120 pb-120">
-         <div class="sv-page-fea-img-1" data-background="img/services/sv-page-fea-img-1.jpg"></div>
+         <div class="sv-page-fea-img-1" data-background="{{$app->request->get('api_shortname')}}/img/services/sv-page-fea-img-1.jpg"></div>
          <div class="container">
             <div class="row">
                <div class="col-lg-6">
@@ -147,11 +147,11 @@
 
          </div>
          <div class="red-nots">
-            <img src="img/cta/point-bg.png" alt="">
+            <img src="{{$app->request->get('api_shortname')}}/img/cta/point-bg.png" alt="">
          </div>
          <div class="thumb-animation d-none d-lg-block">
             <div class="like-thumb">
-               <img src="img/cta/like-thumb.jpg" alt="">
+               <img src="{{$app->request->get('api_shortname')}}/img/cta/like-thumb.jpg" alt="">
             </div>
             <div class="like-thumb-border">
 

@@ -1,7 +1,7 @@
 <div class="body-overlay"></div>
    <!-- off canvas area  -->
    <main>
-   <div class="breadcrumb__area theme-bg pt-120 pb-120" data-background="img/hero/breadcrumb-bg.png">
+   <div class="breadcrumb__area theme-bg pt-120 pb-120" data-background="{{$app->request->get('api_shortname')}}/img/hero/breadcrumb-bg.png">
          <div class="container">
             <div class="row">
                <div class="col-xxl-12">
@@ -23,7 +23,7 @@
             <div class="row align-items-md-center">
                <div class="col-xl-6 wow tpfadeUp">
                   <div class="about-page-about-img mb-30">
-                     <img src="img/about/ab-about-img.jpg" alt="">
+                     <img src="{{$app->request->get('api_shortname')}}/img/about/ab-about-img.jpg" alt="">
                   </div>
                </div>
                <div class="col-xl-6 wow tpfadeUp">
@@ -60,25 +60,25 @@
                          <div class="app-brand-slider-active ab-brand-overlay swiper-container">
                              <div class="swiper-wrapper">
                                  <div class="tp-app-brand-item swiper-slide">
-                                     <img src="img/brand/white-brand-1.png" alt="">
+                                     <img src="{{$app->request->get('api_shortname')}}/img/brand/white-brand-1.png" alt="">
                                  </div>
                                  <div class="tp-app-brand-item swiper-slide">
-                                     <img src="img/brand/white-brand-2.png" alt="">
+                                     <img src="{{$app->request->get('api_shortname')}}/img/brand/white-brand-2.png" alt="">
                                  </div>
                                  <div class="tp-app-brand-item swiper-slide">
-                                     <img src="img/brand/white-brand-3.png" alt="">
+                                     <img src="{{$app->request->get('api_shortname')}}/img/brand/white-brand-3.png" alt="">
                                  </div>
                                  <div class="tp-app-brand-item swiper-slide">
-                                     <img src="img/brand/white-brand-4.png" alt="">
+                                     <img src="{{$app->request->get('api_shortname')}}/img/brand/white-brand-4.png" alt="">
                                  </div>
                                  <div class="tp-app-brand-item swiper-slide">
-                                     <img src="img/brand/white-brand-5.png" alt="">
+                                     <img src="{{$app->request->get('api_shortname')}}/img/brand/white-brand-5.png" alt="">
                                  </div>
                                  <div class="tp-app-brand-item swiper-slide">
-                                     <img src="img/brand/white-brand-6.png" alt="">
+                                     <img src="{{$app->request->get('api_shortname')}}/img/brand/white-brand-6.png" alt="">
                                  </div>
                                  <div class="tp-app-brand-item swiper-slide">
-                                     <img src="img/brand/white-brand-7.png" alt="">
+                                     <img src="{{$app->request->get('api_shortname')}}/img/brand/white-brand-7.png" alt="">
                                  </div>                                 
                              </div>
                          </div>
@@ -163,11 +163,11 @@
 
          </div>
          <div class="red-nots">
-            <img src="img/cta/point-bg.png" alt="">
+            <img src="{{$app->request->get('api_shortname')}}/img/cta/point-bg.png" alt="">
          </div>
          <div class="thumb-animation d-none d-lg-block">
             <div class="like-thumb">
-               <img src="img/cta/like-thumb.jpg" alt="">
+               <img src="{{$app->request->get('api_shortname')}}/img/cta/like-thumb.jpg" alt="">
             </div>
             <div class="like-thumb-border">
 

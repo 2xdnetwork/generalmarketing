@@ -6,7 +6,7 @@
                     <div class="row align-items-center">
                         <div class="col-xl-3 col-3">
                             <div class="logo">
-                                <a href="/"><img src="img/logo/{{$app->request->get('api_shortname')}}-logo.png" alt=""></a>
+                                <a href="/"> <img src="{{$app->request->get('api_shortname')}}/img/logo/{{$app->request->get('api_shortname')}}-logo.png" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-9 d-none d-xl-block">
@@ -69,14 +69,14 @@
     <div class="tp-offcanvas-wrapper">
         <div class="tp-offcanvas white-bg">
             <div class="offc-top-pattern">
-                <img src="img/hero/nav-parrten-top.png" alt="">
+                <img src="{{$app->request->get('api_shortname')}}/img/hero/nav-parrten-top.png" alt="">
             </div>
             <div class="tp-offcanvas__top tp-border-bottom pb-30 mb-30">
                 <div class="tp-offcanvas-close">
                     <span><i class="fal fa-times"></i></span>
                 </div>
                 <div class="tp-offcanvas__logo mb-50">
-                    <a href="/"><img src="img/logo/{{$app->request->get('api_shortname')}}-logo.png" alt="sticky-logo"></a>
+                    <a href="/"> <img src="{{$app->request->get('api_shortname')}}/img/logo/{{$app->request->get('api_shortname')}}-logo.png" alt="sticky-logo"></a>
                 </div>
                 <p> We design, build, and grow your business or brand. Contact us for a quote.</p>
                 <!-- <div class="tp-offcanvas__social">
@@ -91,7 +91,7 @@
                     Get In Touch
                 </h3>
                 <div class="tp-offcanvas-cta d-flex align-items-center tp-border-bottom pb-20  mb-30">
-                    <span class="icon mr-20"><img src="img/icons/ofp-phone.png" alt=""></span>
+                    <span class="icon mr-20"> <img src="{{$app->request->get('api_shortname')}}/img/icons/ofp-phone.png" alt=""></span>
                     <span>
                         <span class="d-block mb-0">Phone number</span>
                         <b><a href="callto:{{$app->request->get('api_phone')}}"> Call Us: {{$app->request->get('api_phone')}} </a></b>
@@ -99,14 +99,14 @@
                 </div>
 
                 <div class="tp-offcanvas-cta d-flex align-items-center tp-border-bottom pb-20 mb-30">
-                    <span class="icon mr-20"><img src="img/icons/ofc-mail-icon.png" alt=""></span>
+                    <span class="icon mr-20"> <img src="{{$app->request->get('api_shortname')}}/img/icons/ofc-mail-icon.png" alt=""></span>
                     <span>
                         <span class="d-block mb-0">Email address</span>
                         <b><a href="mailto:{{$app->request->get('api_email')}}"> {{$app->request->get('api_email')}} </a></b>
                     </span>
                 </div>
                 <div class="tp-offcanvas-cta d-flex align-items-center pb-20  mb-30">
-                    <span class="icon mr-20"><img src="img/icons/ofc-locaiton.png" alt=""></span>
+                    <span class="icon mr-20"> <img src="{{$app->request->get('api_shortname')}}/img/icons/ofc-locaiton.png" alt=""></span>
                     <span>
                          <span class="d-block mb-0">{{$app->request->get('api_address')}}</span>
                         <b><a href="callto:{{$app->request->get('api_phone')}}"> Call Us: {{$app->request->get('api_phone')}} </a></b>
@@ -129,7 +129,7 @@
             </div>
 
             <div class="offc-bottom-pattern">
-                <img src="img/hero/nav-parrten-botoom.png" alt="">
+                <img src="{{$app->request->get('api_shortname')}}/img/hero/nav-parrten-botoom.png" alt="">
             </div>
         </div>
     </div>

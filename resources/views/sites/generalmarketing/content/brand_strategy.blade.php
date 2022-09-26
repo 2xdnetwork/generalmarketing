@@ -1,7 +1,7 @@
 <div class="body-overlay"></div>
    <!-- off canvas area  -->
    <main>
-   <div class="breadcrumb__area theme-bg pt-120 pb-120" data-background="img/hero/breadcrumb-bg.png">
+   <div class="breadcrumb__area theme-bg pt-120 pb-120" data-background="{{$app->request->get('api_shortname')}}/img/hero/breadcrumb-bg.png">
          <div class="container">
             <div class="row">
                <div class="col-xxl-12">
@@ -34,7 +34,7 @@
                </div>
                <div class="col-lg-7">
                   <div class="seo-faq-img text-end p-relative mb-30 wow tpfadeUp" style="visibility: visible; animation-name: tpfadeUp;">
-                     <img src="img/services/brand1.jpg" alt="">
+                     <img src="{{$app->request->get('api_shortname')}}/img/services/brand1.jpg" alt="">
                   </div>
                </div>
             </div>
@@ -43,7 +43,7 @@
 
       
       <div class="tp-sv-page-feature-area black-bg p-relative pt-120 pb-120">
-         <div class="sv-page-fea-img-1" data-background="img/services/brand2.jpg"></div>
+         <div class="sv-page-fea-img-1" data-background="{{$app->request->get('api_shortname')}}/img/services/brand2.jpg"></div>
          <div class="container">
             <div class="row">
                <div class="col-lg-6">
@@ -84,7 +84,7 @@
                </div>
                <div class="col-lg-7">
                   <div class="seo-faq-img text-end p-relative mb-30 wow tpfadeUp" style="visibility: visible; animation-name: tpfadeUp;">
-                     <img src="img/services/brand3.jpg" alt="">
+                     <img src="{{$app->request->get('api_shortname')}}/img/services/brand3.jpg" alt="">
                   </div>
                </div>
             </div>
@@ -125,11 +125,11 @@
 
          </div>
          <div class="red-nots">
-            <img src="img/cta/point-bg.png" alt="">
+            <img src="{{$app->request->get('api_shortname')}}/img/cta/point-bg.png" alt="">
          </div>
          <div class="thumb-animation d-none d-lg-block">
             <div class="like-thumb">
-               <img src="img/cta/like-thumb.jpg" alt="">
+               <img src="{{$app->request->get('api_shortname')}}/img/cta/like-thumb.jpg" alt="">
             </div>
             <div class="like-thumb-border">
 
