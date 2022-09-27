@@ -61,5 +61,9 @@ echo '<?xml version="1.0" encoding="UTF-8"?>'; ?>
   <lastmod>{{ $date }}</lastmod>
   <priority>0.64</priority>
 </url>
-
+<url>
+  <loc>https://www.{{$app->request->get('api_domain')}}/unsubscribe</loc>
+  <lastmod>{{ $date }}</lastmod>
+  <priority>0.64</priority>
+</url>
 </urlset>

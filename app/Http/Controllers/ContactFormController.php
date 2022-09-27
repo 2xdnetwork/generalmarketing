@@ -17,4 +17,9 @@ class ContactFormController extends Controller
         return response()->json(['success'=>'Great, You have been subscribed.']);
     }
 
+    public function unsubscribe(Request $request){
+        sleep(1);  
+        return response()->json(['success'=>'You have been unsubscribed.']);
+    }
+
 }

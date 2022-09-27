@@ -63,3 +63,32 @@ $('#contactForm2').on('submit',function(e){
       error: function(response) {}
      });
 });
+
+
+// Unsubscribe
+$('#contactForm3').on('submit',function(e){
+  e.preventDefault();
+  let email = $('#email').val();
+  $.ajax({
+    url: "contact-form3",
+    type:"POST",
+    data:{
+      email:email,
+    },
+    headers: {
+   //Make sure Meta token in included in meta file!!!!!!!!!!
+      'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+    }, 
+    success:function(response){
+      console.log(response);
+        if (response) {
+        $('#success-message3').text(response.success); 
+        document.getElementById("success-message3").style.color = 'green';
+
+        $("#contactForm3")[0].reset(); 
+
+      }
+    },
+    error: function(response) {}
+   });
+});

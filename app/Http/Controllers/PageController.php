@@ -132,4 +132,14 @@ class PageController extends Controller
         }
     }
 
+    public function unsubscribe(Request $request){
+        $path = $request->get('api_path').'/pages/unsubscribe';
+        if (view()->exists($path)) {
+            return view($path);
+        } else {
+            //abort('404'); 
+            return('No Page Found! '.$path);
+        }
+    }  
+
 }
